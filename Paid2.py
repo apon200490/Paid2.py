@@ -32,14 +32,14 @@ proxies=open('proxies.txt','r').read().splitlines()
 
 android_models=[]
 try:
-    xx = requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/strings.txt').text.splitlines()
+    xx = requests.get('https://github.com/apon200490/aproovaal.txt/blob/main/aproovaal.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
 
 usr=[]
 try:
-    xd=requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/ua.txt').text.splitlines()
+    xd=requests.get('https://github.com/apon200490/aproovaal.txt/blob/main/aproovaal.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
@@ -177,11 +177,15 @@ EXTRA ='\x1b[38;5;208m'
 #________________________________________#
 
 logo=(f"""{WHITE}
+'\033[1;32m' __     ________           _____ _____ _   _ 
+'\033[1;32m' \ \   / /  ____|   /\    / ____|_   _| \ | |
+'\033[1;32m'  \ \_/ /| |__     /  \  | (___   | | |  \| |
+'\033[1;32m'   \   / |  __|   / /\ \  \___ \  | | | . ` |
+'\033[1;32m'    | |  | |____ / ____ \ ____) |_| |_| |\  |
+'\033[1;32m'    |_|  |______/_/    \_\_____/|_____|_| \_|
+                                             
+                                             
 
- 
-'\033[1;32m'┓┏┏┓┏┓┏┓┳┳┓  ┏┓┳┓┏┓┏┓┏┓┏┳┓
-'\033[1;32m'┗┫┣ ┣┫┗┓┃┃┃  ┣┫┣┫┣┫┣ ┣┫ ┃ 
-'\033[1;32m'┗┛┗┛┛┗┗┛┻┛┗  ┛┗┛┗┛┗┻ ┛┗ ┻ 
 ___________________________________________________________                          
 \t[×] Developed By APON CHOWDHURY {EXTRA} (APON)
 [•] AUTHOR : APON CHOWDHURY 
